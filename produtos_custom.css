@@ -1,0 +1,158 @@
+
+html,body{
+margin: 0;
+padding: 0;
+font-family:arial;/*FONTE DA PÁGINA*/
+text-align : center;/*ALINHAR O TEXTO NO CENTRO DA PÁGINA*/
+background-image:url("https://trabalhoshref.github.io/mostruario-imagens/Whispers_of_Elegance_produtos.png");/*MUDAR A IMAGEM DE FUNDO*/
+background-size: cover;/*"FALA" PARA A IMAGEM COBRIR O FUNDO TODO*/
+background-position: center;/*E ALINHA ELA NO CENTRO*/
+background-repeat: no-repeat;/*"FALA" QUE NÃO QUER QUE A IMAGEM SE REPITA*/
+}
+
+header{
+	margin:0px;/*DEFINIR MARGENS*/
+	padding : 3vw;/*PARTE INTERIOR DO ELEMENTO*/
+	background-color :rgb(242, 203, 177);
+	border-radius : 5px;/*ARRENDODAMENTO DA BORDA*/
+	border-style: inset;/*ESTILO DA BORDA*/
+	border-color:#C5AF89;
+}
+nav{
+	font-size : 21px;
+	padding:0.35vw 6.2vw 0.35vw 6.2vw;
+	border : 3px solid #C5AF89;
+	background-color:#dbdbdb;
+	border-radius : 10px;
+	border-style: inset;
+	font-weight:bold;
+	letter-spacing:2px;/*ESPAÇAMENTO ENTRE AS LETRAS*/
+}
+/*TRouBLe*/
+nav a{
+	padding:0.35vw 6.2vw 0.35vw 6.2vw;
+	text-decoration: none;
+	text-align : left;
+	color :black;
+	background-color :#dbdbdb;
+	letter-spacing:1px;
+}
+nav a:hover/*AQUI A TEORIA É A MESMA! MAS INVES DOS BOTÕES, É DO MENU DE NAVEGAÇÃO*/{
+	padding:0.35vw 6.2vw 0.35vw 6.2vw;
+	background-color : rgb(186, 188, 190);
+	letter-spacing:1px;
+}
+#logo{/*SELETOR DE ID*/
+	width:275px;
+	height :auto;
+}
+
+/*AQUI TERMINA O LAYOUT PARA AS OUTRAS PÁGINAS! */
+
+/*AQUI TERMINA O LAYOUT PARA AS OUTRAS PÁGINAS! */
+
+.imagens{
+	text-align:center;
+	width:325px;
+    height: auto;
+	border-radius:20%;
+	background-color :#dbdbdb;
+	padding : 22px;
+	border : 2.5px solid #C5AF89;
+}
+#imagem1{
+	position:relative;
+	top:100px;
+	right:100px;
+}
+#imagem2{
+	position:relative;
+	top:100px;
+	right:5px;
+}
+#imagem3{
+	position:relative;
+	top:100px;
+	left:100px;
+	margin:0px;
+}
+#imagem4{
+	position:absolute;
+	top:925px;
+	left:10px;
+}
+#imagem5{
+	position:absolute;
+	top:925px;
+	right:490px;
+}
+#imagem6{
+	position:absolute;
+	top:925px;
+	right:10px;
+}
+#imagem7{
+	position:absolute;
+	top:1400px;
+	left:10px;
+}
+#imagem8{
+	position:absolute;
+	top:1400px;
+	right:490px;
+}
+#imagem9{
+	position:absolute;
+	top:1400px;
+	right:10px;
+	margin-bottom:50px;
+}
+#rodape{
+	position:absolute;
+	top:1850px;
+}
+#titulo-imagem1{
+	position:absolute;
+	top:835px;
+	left:130px;
+}
+#titulo-imagem2{
+	position:absolute;
+	top:835px;
+	left:625px;
+}
+#titulo-imagem3{
+	position:absolute;
+	top:835px;
+	right:135px;
+}
+#titulo-imagem4{
+	position:absolute;
+	top:1315px;
+	left:160px;
+}
+#titulo-imagem5{
+	position:absolute;
+	top:1315px;
+	right:640px;
+}
+#titulo-imagem6{
+	position:absolute;
+	top:1315px;
+	right:155px;
+}
+#titulo-imagem7{
+	position:absolute;
+	top:1795px;
+	left:150px;
+}
+#titulo-imagem8{
+	position:absolute;
+	top:1795px;
+	right:620px;
+}
+#titulo-imagem9{
+	position:absolute;
+	top:1795px;
+	right:160px;
+}

@@ -1,0 +1,70 @@
+
+
+html,body{
+margin: 0;
+padding: 0;
+font-family:arial;/*FONTE DA PÁGINA*/
+text-align : center;/*ALINHAR O TEXTO NO CENTRO DA PÁGINA*/
+background-image:url("https://trabalhoshref.github.io/mostruario-imagens/Whispers_of_Elegance_produtos.png");/*MUDAR A IMAGEM DE FUNDO*/
+background-size: cover;/*"FALA" PARA A IMAGEM COBRIR O FUNDO TODO*/
+background-position: center;/*E ALINHA ELA NO CENTRO*/
+background-repeat: no-repeat;/*"FALA" QUE NÃO QUER QUE A IMAGEM SE REPITA*/
+}
+
+header{
+	margin:0px;/*DEFINIR MARGENS*/
+	padding : 3vw;/*PARTE INTERIOR DO ELEMENTO*/
+	background-color :rgb(242, 203, 177);
+	border-radius : 5px;/*ARRENDODAMENTO DA BORDA*/
+	border-style: inset;/*ESTILO DA BORDA*/
+	border-color:#C5AF89;
+}
+nav{
+	font-size : 21px;
+	padding:0.35vw 6.2vw 0.35vw 6.2vw;
+	border : 3px solid #C5AF89;
+	background-color:#dbdbdb;
+	border-radius : 10px;
+	border-style: inset;
+	font-weight:bold;
+	letter-spacing:2px;/*ESPAÇAMENTO ENTRE AS LETRAS*/
+}
+/*TRouBLe*/
+nav a{
+	padding:0.35vw 6.2vw 0.35vw 6.2vw;
+	text-decoration: none;
+	text-align : left;
+	color :black;
+	background-color :#dbdbdb;
+	letter-spacing:1px;
+}
+nav a:hover/*AQUI A TEORIA É A MESMA! MAS INVES DOS BOTÕES, É DO MENU DE NAVEGAÇÃO*/{
+	padding:0.35vw 6.2vw 0.35vw 6.2vw;
+	background-color : rgb(186, 188, 190);
+	letter-spacing:1px;
+}
+#logo{/*SELETOR DE ID*/
+	width:275px;
+	height :auto;
+}
+
+/*AQUI TERMINA O LAYOUT PARA AS OUTRAS PÁGINAS! */
+
+#paragrafo{
+	position:absolute;
+	top:315px;
+	right:80px;
+	background-color:white;
+	border : 3px solid #C5AF89;
+	border-radius:8%;
+	padding:100px;
+	padding-right:50px;
+	padding-left:50px;
+	padding-top:25px;
+    padding-bottom:35px;
+}
+#rodape{
+	position:absolute;
+	top:700px;
+}
+

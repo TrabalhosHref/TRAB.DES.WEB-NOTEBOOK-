@@ -1,0 +1,106 @@
+
+html,body{
+margin: 0;
+padding: 0;
+font-family:arial;/*FONTE DA PÁGINA*/
+text-align : center;/*ALINHAR O TEXTO NO CENTRO DA PÁGINA*/
+background-image:url("https://trabalhoshref.github.io/mostruario-imagens/Whispers_of_Elegance.png");/*MUDAR A IMAGEM DE FUNDO*/
+background-size: cover;/*"FALA" PARA A IMAGEM COBRIR O FUNDO TODO*/
+background-position: center;/*E ALINHA ELA NO CENTRO*/
+background-repeat: no-repeat;/*"FALA" QUE NÃO QUER QUE A IMAGEM SE REPITA*/
+}
+
+header{
+	margin:0px;/*DEFINIR MARGENS*/
+	padding : 3vw;/*PARTE INTERIOR DO ELEMENTO*/
+	background-color :rgb(242, 203, 177);
+	border-radius : 5px;/*ARRENDODAMENTO DA BORDA*/
+	border-style: inset;/*ESTILO DA BORDA*/
+	border-color:#C5AF89;
+}
+nav{
+	font-size : 21px;
+	padding:0.35vw 6.2vw 0.35vw 6.2vw;
+	border : 3px solid #C5AF89;
+	background-color:#dbdbdb;
+	border-radius : 10px;
+	border-style: inset;
+	font-weight:bold;
+	letter-spacing:2px;/*ESPAÇAMENTO ENTRE AS LETRAS*/
+}
+/*TRouBLe*/
+nav a{
+	padding:0.35vw 6.2vw 0.35vw 6.2vw;
+	text-decoration: none;
+	text-align : left;
+	color :black;
+	background-color :#dbdbdb;
+	letter-spacing:1px;
+}
+nav a:hover/*AQUI A TEORIA É A MESMA! MAS INVES DOS BOTÕES, É DO MENU DE NAVEGAÇÃO*/{
+	padding:0.35vw 6.2vw 0.35vw 6.2vw;
+	background-color : rgb(186, 188, 190);
+	letter-spacing:1px;
+}
+#logo{/*SELETOR DE ID*/
+	width:275px;
+	height :auto;
+}
+
+/*AQUI TERMINA O LAYOUT PARA AS OUTRAS PÁGINAS! */
+.botao{
+	border-color:#C5AF89;
+	font-weight:bold;
+	background-color:#dbdbdb;
+	border-radius:5px;
+	font-size:1.5vw;
+	padding:5px;
+	width:3.5vw;
+	height:2.5vw;
+}
+ 
+.botao:hover/*HOVER É O EVENTO DE QUANDO O MOUSE PASSA POR CIMA DO ELEMENTO, AQUI MODIFICAMOS AS CORES DA BORDA, DO FUNDO E DAS LETRAS DE TODOS OS BOTOES DA PAGINA, RESPECTIVAMENTE*/{
+	border-color:white;
+	background-color:#C5AF89;
+	color:white;
+	cursor:pointer;
+}
+h1{
+	font-size : 50px;
+}
+
+.title{
+	margin-top:0.8vw;
+	letter-spacing:3px;
+}
+/*ordem de referencia: "TRouBLe" Top, Right, Bottom, Left*/
+#imagem/*SELETOR DE ID*/{
+	text-align:center;
+	width:30vw;
+    height: auto;
+	border-radius:20%;
+	background-color :#dbdbdb;
+	padding : 22px;
+	border : 2.5px solid #C5AF89;
+}
+#p{
+	position:relative;/*MODIFICANDO A POSIÇÃO DO ELEMENTO NA PÁGINA*/
+	right:60px;
+
+}
+#texto{
+	font-weight:bold;
+	font-size:20px;
+	position:relative;
+	right:55px;
+	top:-15px;
+}
+#button-1{
+	position:relative;
+	top:-235px;
+}
+#button-2{
+	position:relative;
+	right:565px;
+	top:-235px;
+}

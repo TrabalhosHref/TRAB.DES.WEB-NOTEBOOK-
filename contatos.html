@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Encantos das Cortinas</title>
+	<link rel = "stylesheet" href = "contatos_custom.css"><!SINALIZANDO QUE É UMA "FOLHA DE ESTILO" E DEPOIS O CAMINHO ATÉ O ARQUIVO.CSS->
+	<link rel="icon" href="https://trabalhoshref.github.io/mostruario-imagens/LOGO_ENCANTO_DAS_CORTINAS.ico" type="image/x-icon"><!ÍCONE DA PÁGINA->
+	<meta charset = "UTF-8"><!FORMATAÇÃO DE CARACTERES->
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+</head>
+<body>
+	<header>
+	<img id = "logo" src = "https://trabalhoshref.github.io/mostruario-imagens/LOGO_ENCANTO_DAS_CORTINAS_3.png">
+	</header>
+	<nav><!MENU DE NAVEGAÇÃO DA PÁGINA->
+		<a href = "cortinas_loja.html">Início</a>
+		<a href = "produtos.html">Produtos</a>
+		<a href = "sobrenos.html">Sobre nós</a>
+		<a href = "contatos.html">Contato</a>
+	</nav><!AQUI TERMINA O LAYOUT PARA AS OUTRAS PÁGINAS!->
+	
+        <form id="formulario" action="adicionarCliente.php" method="post">
+            <legend>Insira seus dados: </legend>
+				<div>
+					<label for="nome">Nome:</label>
+					<input type="text" maxlength = "100" required id="nome" placeholder="Seu nome" autofocus name="nome"/><br><br>
+			
+					<label for="email">Email:</label>
+					<input type="email" maxlength="120" required id="email" placeholder = "voce@exemplo.com" name="email"/><br><br>
+					<label for="telefone">Telefone:</label>
+					<input type="text" id="telefone" required maxlength = "11" placeholder = "(DDD) + Telefone(Celular)" name="telefone"/><br><br>
+			
+			
+					<label for =  "duvida">Insira sua dúvida:</label>
+					<input type = "text" name  = "duvida" id = "duvida"  placeholder = "Como podemos te ajudar?"maxlength = "400"> 
+					
+					
+					<button type="submit" id = "botao1" class = "botao_contatos">Enviar</button>
+					
+				</div>
+		</form>		
+				<form action = "listarClientes.php" method = "post">
+				<button type="submit" id = "botao2" class = "botao_contatos">Gerenciar clientes</button>
+				</form>
+				
+				
+						
+
+</body>
+</html>
